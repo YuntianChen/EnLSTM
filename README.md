@@ -9,7 +9,7 @@ It uses the ENN algorithm(see [Ensemble Neural Networks (ENN): A gradient-free s
 
 ### Dataset Decription
 
-The dataset used in this examples contains data files formated as .csv files with header of feature names.
+The dataset used in this example contains data files formated as .csv files with header of feature names.
 
 ### Loading dataset
 
