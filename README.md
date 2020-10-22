@@ -72,11 +72,11 @@ The program is written in Python, and uses pytorch, scipy. A GPU is necessary, t
 
 ```python
 # training parameters
-self.ne = 2
+self.ne = 100
 self.T = 1
 self.batch_size = 32
 self.num_workers = 1
-self.epoch = 10
+self.epoch = 3
 self.GAMMA = 10
 ```
 
