@@ -3,14 +3,14 @@ Ensemble long short-term memory. A gradient-free neural network that combines en
 
 # Well Log
 
-This is part of implmentation of the paper[paper name](link) by Yuantian and Yuanqi.
-It uses the ENN algorithm(see [paper anme](link)) to train an artifical neural network instead of back propogation.
+This is part of implmentation of the paper [Ensemble long short-term memory (EnLSTM) network](https://arxiv.org/abs/2004.13562) by Yuantian Chen, Dongxiao Zhang, and Yuanqi Cheng.
+It uses the ENN algorithm(see [Ensemble Neural Networks (ENN): A gradient-free stochastic method](https://www.sciencedirect.com/science/article/pii/S0893608018303319)) to train an artifical neural network instead of back propogation.
 
 ## Data Preperation and Model Definition
 
 ### Dataset Decription
 
-The dataset used in this examples contains 6 different vartical well log, all formated as .csv files with header of feature names.
+The dataset used in this examples contains data files formated as .csv files with header of feature names.
 
 ### Loading dataset
 
