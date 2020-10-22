@@ -1,9 +1,8 @@
 # EnLSTM
 Ensemble long short-term memory. A gradient-free neural network that combines ensemble neural network and long short-term memory.
 
-# Well Log
-
 This is part of implmentation of the paper [Ensemble long short-term memory (EnLSTM) network](https://arxiv.org/abs/2004.13562) by Yuantian Chen, Dongxiao Zhang, and Yuanqi Cheng.
+
 It uses the ENN algorithm(see [Ensemble Neural Networks (ENN): A gradient-free stochastic method](https://www.sciencedirect.com/science/article/pii/S0893608018303319)) to train an artifical neural network instead of back propogation.
 
 ## Data Preperation and Model Definition
@@ -59,7 +58,7 @@ class netLSTM_withbn(nn.Module):
 
 ---
 
-## Requiremetns
+## Requirements
 
 The program is written in Python, and uses pytorch, scipy. A GPU is necessary, the ENN algorithm can only be running when CUDA is available.
 
