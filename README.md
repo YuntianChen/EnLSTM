@@ -5,6 +5,8 @@ This is part of implmentation of the paper [Ensemble long short-term memory (EnL
 
 It uses the ENN algorithm(see [Ensemble Neural Networks (ENN): A gradient-free stochastic method](https://www.sciencedirect.com/science/article/pii/S0893608018303319)) to train an artifical neural network instead of back propogation.
 
+The codes are also published on Zenodo https://zenodo.org/badge/306255983.svg.
+
 ## Data Preperation and Model Definition
 
 ### Dataset Decription
