@@ -40,7 +40,7 @@ class netLSTM_withbn(nn.Module):
 
     def forward(self, x, hs=None, use_gpu=config.use_gpu):
         batch_size = x.size(0)
-        if hs is None:
+        if hs is None: 
             h = Variable(t.zeros(config.num_layer,
                                  batch_size,
                                  config.hid_dim))
